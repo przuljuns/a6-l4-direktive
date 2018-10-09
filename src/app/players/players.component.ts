@@ -40,4 +40,11 @@ export class PlayersComponent implements OnInit {
   ngOnInit() {
   }
 
+  getColor(country) {
+    switch (country) {
+      case 'Srbija': return 'blue';
+      case 'Švajcarska': return 'red';
+      default: return 'green';
+    }
+  }
 }
