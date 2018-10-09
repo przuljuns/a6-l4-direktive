@@ -1,5 +1,7 @@
 <mat-list *ngFor='let player of players' >
-  <mat-list-item  [ngStyle]="{color: getColor(player.country)}">
-    Ime: {{player.name}}, Ranking: {{player.rank}}
+  <mat-list-item  [ngClass]="{'serbian-player': player.country == 'Srbija',
+                              'swiss-player': player.country == 'Švajcarska',
+                              'spanish-player': player.country == 'Španija'}">
+                              Ime: {{player.name}}, Ranking: {{player.rank}}
   </mat-list-item>
 </mat-list>

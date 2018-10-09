@@ -1,0 +1,15 @@
+.spanish-player {
+  background-color: yellow;
+  color: red;
+  padding: 10px;
+}
+.serbian-player {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+.swiss-player {
+  background-color: blue;
+  color: gray;
+  padding: 10px;
+}
