@@ -18,10 +18,10 @@ export class HoverDirective implements OnInit {
   }
 
   @HostListener('mouseenter') mouseIn(eventData: Event) {
-    this.backgroundColor = 'yellow';
+    this.backgroundColor = this.highlightedColor;
   }
 
   @HostListener('mouseleave') mouseOut(eventData: Event) {
-    this.backgroundColor = 'gray';
+    this.backgroundColor = this.defaultColor;
   }
 }
