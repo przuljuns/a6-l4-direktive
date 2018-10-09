@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { MatListModule } from '@angular/material/list';
+
 import { AppComponent } from './app.component';
 import { PlayersByCountryComponent } from './players-by-country/players-by-country.component';
 import { PlayersComponent } from './players/players.component';
@@ -12,7 +14,8 @@ import { PlayersComponent } from './players/players.component';
     PlayersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

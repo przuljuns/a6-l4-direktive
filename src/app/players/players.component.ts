@@ -10,23 +10,28 @@ export class PlayersComponent implements OnInit {
   players: any[] = [
         {
           name: 'Rafael Nadal',
-          rank: 1
+          rank: 1,
+          country: 'Španija'
         },
         {
           name: 'Novak Đoković',
-          rank: 6
+          rank: 6,
+          country: 'Srbija'
         },
         {
           name: 'Laslo Đere',
-          rank: 89
+          rank: 89,
+          country: 'Srbija'
         },
         {
           name: 'Rodžer Federer',
-          rank: 2
+          rank: 2,
+          country: 'Švajcarska'
         },
         {
           name: 'Stan Vavrinka',
-          rank: 101
+          rank: 101,
+          country: 'Švajcarska'
         }
       ];
 
